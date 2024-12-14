@@ -1,0 +1,77 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('C:\Gym website\front end final\gym\public\images\lightgym.avif'); /* Use relative path */
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    padding: 0;
+}
+  .header {
+    position: absolute;
+    top: 50px; /* Adjust top position as needed */
+    left: 50px; 
+  }
+  
+  .gym-name {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 50px; 
+  }
+  
+  /* Centering the slogan */
+  .slogan {
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.5rem;
+    color: white;
+    position: absolute; /* To allow centering vertically */
+    top: 50%; /* Vertically centering */
+    left: 50%; /* Horizontally centering */
+    transform: translate(-50%, -50%); /* Perfectly center the element */
+    text-align: center; /* Make sure the text is centered */
+    width: 100%; /* Allow it to stretch across the page */
+  }
+  
+  
+  .custom-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .custom-box button {
+    background: darkgray;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+  }
+  
+  .custom-box button:hover {
+    background: gray;
+  }
+  
+  
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 20px;
+    top: 20px;
+  }
+  
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
